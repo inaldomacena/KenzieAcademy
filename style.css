@@ -1,5 +1,23 @@
 
 
-body{
-    font-family: "Roboto" sans-serif;
+
+
+
+.flip{
+    transform: rotateY('180deg');
+}
+.face{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: absolute;
+}
+.front .back{
+     border-radius: 5px;
+     display: flex;
+     flex-direction: column;
+     background-image: url("./assets/");
+     backface-visibility: hidden;
 }
