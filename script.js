@@ -65,9 +65,9 @@
    }
 
    function viraCard(){
-    const card = document.querySelectorAll('.listCard')
-    for(let indice = 0; indice < card.length; indice++){
-        const card = card[indice]
+    const cards = document.querySelectorAll('.listCard')
+    for(let indice = 0; indice < cards.length; indice++){
+        const card = cards[indice]
 
         card.addEventListener('click', function(){
             card.classList.toggle('flip')
