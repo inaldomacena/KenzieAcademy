@@ -60,6 +60,7 @@
     lista.append(li)
 
     }
+    
         viraCard()
    }
 

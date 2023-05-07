@@ -19,10 +19,12 @@ img{
     --color-title-1: #000000;
     --text-color-1: #c7c7c7cc;
 }
+
 body {
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto" ;
     width: 100vw;
     height: 100vh;
+    
    
 }
 
