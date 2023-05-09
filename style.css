@@ -1,6 +1,6 @@
 
 /*CONFIGURAÇÕES GERAIS*/
-*container{
+.container{
     width: 90vw;
     margin: 0 auto;
 }
@@ -27,13 +27,13 @@ h1{
     font-weight: 700;
     line-height: 37.5px;
     text-align: center;
-    color:(--color-title-1) ;
+    color:var(--color-title-1) ;
     margin: 60px 0 60px 0;
 }
 
 /* NAV BAR*/
 nav{
-    margin: auto;
+    margin: 0 auto;
     width: 40vw;
 }
 .navBar{
@@ -43,7 +43,7 @@ nav{
 }
 
 .navBar > li{
-    font-family: Roboto sans-serif ;
+    font-family: Poppins;
     color: var(--color-grey-3);
     font-size: 20px;
     font-weight: 400;
@@ -59,7 +59,7 @@ nav{
 }
 
 /*CARD LIST*/
-#cardlist{
+.cardlist{
     height: 600px;
     width: 60vw;
     margin: 60px auto;
@@ -71,7 +71,7 @@ nav{
     justify-content: space-around;
 }
 
-#cardList::-webkit-scrollbar{
+.cardList::-webkit-scrollbar{
     border-radius: 20px;
     background-color: var(--color-grey-3);
     border: 3px solid var(--color-grey-2);
@@ -122,7 +122,8 @@ nav{
 
 
 
-.front,.back{
+.front,
+.back{
      border-radius: 5px;
      display: flex;
      flex-direction: column;
